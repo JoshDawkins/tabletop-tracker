@@ -1,0 +1,35 @@
+====================
+UML Conventions
+====================
+
+	----------------
+	General
+	----------------
+	
+		-Packages are represented by large rectangles with a "tab" on the upper left containing the package name
+		-Classes and similar constructs are represented by a rectangle divided into three sections
+			-The top section contains the name of the class, in bold, along with certain other conventions explained later
+			-The middle section contains class and instance properties
+			-The bottom section contains constructors and class and instance methods
+		-The text before the : on a property and before the () in a constructor or method is that member's name
+		-The text inside the () on a constructor or method shows the data types of any parameters the function will accept
+		-The text after the : on a property is the property's data type, while the same text after the : on a method is its return type
+		-Note that constructors do not have a return type, and must always have the exact same name as the class
+		-An interface has its name in italics, with the text "<<interface>>" in the top section above the name
+		-An abstract class has its name in italics, but has no additional text like an interface
+		-An enum has the text "<<enum>>" in the top section above the name
+		-Inheritance and implementation between classes within the diagram is indicated by a white-tipped arrow pointing from the parent or interface to the child or implementer
+		-A class that inherits from a standard class outside the diagram indicates its parent in the top section below the name with a section of the format "<extends ParentClass>"
+		-A class or interface that implements one or more standard interfaces outside the diagram indicates its interface(s) similarly to the previous entry: "<implements InterfaceName>"
+	
+	----------------
+	Access Modifiers
+	  and Attributes
+	----------------
+	
+		-A public member is preceded by a + sign
+		-A private member is preceded by a - sign
+		-A protected member is preceded by a # sign
+		-A static member is underlined
+		-A final member is followed by the text "{final}"
+		-An abstract member of an abstract class has its name italicized
