@@ -18,7 +18,7 @@ UML Conventions
 		-An interface has its name in italics, with the text "<<interface>>" in the top section above the name
 		-An abstract class has its name in italics, but has no additional text like an interface
 		-An enum has the text "<<enum>>" in the top section above the name
-		-Inheritance and implementation between classes within the diagram is indicated by a white-tipped arrow pointing from the parent or interface to the child or implementer
+		-Inheritance and implementation between classes within the diagram is indicated by a white-tipped arrow pointing from the child or implementer to the parent or interface, with the word "Extends" for inheritance or "Implements" for implementation
 		-A class that inherits from a standard class outside the diagram indicates its parent in the top section below the name with a section of the format "<extends ParentClass>"
 		-A class or interface that implements one or more standard interfaces outside the diagram indicates its interface(s) similarly to the previous entry: "<implements InterfaceName>"
 	
